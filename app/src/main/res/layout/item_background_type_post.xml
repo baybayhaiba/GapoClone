@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_cv_type_post"
+    android:layout_width="30sp"
+    android:layout_height="30sp"
+    app:cardCornerRadius="5sp"
+    app:cardUseCompatPadding="true">
+
+    <ImageView
+        android:id="@+id/custom_img_type_post"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/type_post1" />
+</androidx.cardview.widget.CardView>

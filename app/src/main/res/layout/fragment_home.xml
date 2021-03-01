@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main.Fragment.Home.fragment_home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/custom_border_layout"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="16sp"
+            android:paddingRight="16sp">
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:src="@drawable/ic_baseline_search_24" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayoutHome"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12sp"
+                android:layout_marginRight="12sp"
+                android:layout_weight="1"
+                app:tabGravity="start"
+                app:tabIndicatorColor="@color/green"
+                app:tabIndicatorFullWidth="false"
+                app:tabIndicatorHeight="1sp"
+                app:tabSelectedTextColor="@color/black"
+                app:tabTextAppearance="@style/TabLayoutStyle"
+                app:tabTextColor="@color/gray" />
+
+            <ImageView
+                android:id="@+id/img_setting"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:src="@drawable/ic_sharp_dehaze_24" />
+        </LinearLayout>
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpagerHome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/linearTop"
+            android:paddingTop="10sp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

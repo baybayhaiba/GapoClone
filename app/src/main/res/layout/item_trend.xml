@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10sp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_trends"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/gapo" />
+
+        <TextView
+            android:id="@+id/tv_order_trend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/custom_textview_border"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_theme_trends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_order_trend"
+            android:layout_alignBottom="@id/tv_order_trend"
+            android:layout_marginLeft="30sp"
+            android:text="#TetNguyenDan"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "521088237158",
+    "project_id": "gapoclone",
+    "storage_bucket": "gapoclone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521088237158:android:594c46e0974775b64a37a7",
+        "android_client_info": {
+          "package_name": "com.example.gapoclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521088237158-ugilh31fuk3sj2u6e19psat2iuirl1rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUt8UFRjaGMaur9UfvtJpD7gbCaaTCF5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521088237158-ugilh31fuk3sj2u6e19psat2iuirl1rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

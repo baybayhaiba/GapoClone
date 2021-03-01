@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gapo_offcial"
+    tools:context=".ActivityRegister">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tlayout_name"
+        style="@style/TextInputLayout"
+        android:layout_above="@id/tlayout_password"
+        android:hint="Tên tài khoản">
+
+        <EditText
+            android:id="@+id/ed_email_account_login"
+            style="@style/EditTextInput"
+            android:layout_alignParentTop="true"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tlayout_password"
+        style="@style/TextInputLayout"
+        android:layout_above="@id/tv_register"
+        android:hint="Mật khẩu"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/ed_password_account_login"
+            style="@style/EditTextInput"
+            android:layout_alignParentTop="true"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_register"
+        style="@style/TextInputLayout"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Bạn chưa có tài khoản ?"
+        android:textColor="@color/blue_a700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_register_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_register"
+        android:layout_centerInParent="true"
+        android:layout_margin="16sp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_catching_pokemon_24"
+        android:text="@string/register_google"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/EditTextInput"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16sp"
+        android:backgroundTint="@color/white"
+        android:padding="16sp"
+        android:text="Đăng nhập"
+        android:textColor="@color/black" />
+</RelativeLayout>

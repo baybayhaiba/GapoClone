@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/mnPlay"
+        android:icon="@drawable/ic_baseline_play_circle_24"
+        android:title="Watch"/>
+
+    <item
+        android:id="@+id/mnGroup"
+        android:icon="@drawable/ic_baseline_groups_24"
+        android:title="Group"/>
+
+    <item
+        android:id="@+id/mnChats"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Chats"/>
+
+    <item
+        android:id="@+id/mnNotification"
+        android:icon="@drawable/ic_baseline_notifications_none_24"
+        android:title="Notification"/>
+
+</menu>

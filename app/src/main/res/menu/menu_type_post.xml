@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnPublic"
+        android:icon="@drawable/ic_baseline_public_24"
+        android:title="Công khai" />
+    <item
+        android:id="@+id/mnFriend"
+        android:icon="@drawable/ic_baseline_groups_24"
+        android:title="Bạn bè" />
+    <item
+        android:id="@+id/mnAlone"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Chỉ một mình" />
+</menu>
